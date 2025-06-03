@@ -17,9 +17,10 @@ nav {
     margin: 0%;
 }
 
-h1.title {
+p.title {
     font-size: 28px;
     -webkit-text-stroke: black 1px;
     color: #ffffff;
     font-family: 'Arial', Courier, monospace;
+    max-width: 38%;
 }
