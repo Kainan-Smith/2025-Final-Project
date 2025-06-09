@@ -1,20 +1,26 @@
-body{
+body,
+.title {
     margin: 0%;
 }
 
-header {
+footer {
+    background-color: #3d3d3d;
+}
+
+.nav {
     background-image: linear-gradient(135deg, #008e66, #00568c);
     width: 100%;
     display: flex;
+    position: absolute;
+    top: 0px;
+    border-bottom: 2px solid black;
 }
 
 .logo {
     width: 5%;
 }
 
-.logo,
-.title, 
-.nav {
+.header {
     text-align: center;
 }
 
@@ -24,26 +30,46 @@ header {
 }
 
 .title {
-    margin: 1%;
+    position: relative;
+    vertical-align: middle;
     font-size: 28px;
     font-weight: 100%;
 }
 
 .title,
-.navItem {
+.nav-item {
     -webkit-text-stroke: black 1px;
     font-family: 'Arial', Courier, monospace;
     color: #ffffff;
 }
 
-.navItem {
+.nav-item {
     font-size: 24px;
     padding: 1%;
     float: right;
 }
 
-.nav {
+.nav-links {
+    position: relative;
+    vertical-align: center;
+    min-width: 57.25%;
+}
+
+.hero {
+    background-color: #dddddd;;
+    min-height: 30%;
+    height: 400px;
+    margin-top: 48px;
+    width: 100%;
+    position: absolute;
     text-align: center;
-    max-width: 50%;
-    min-width: 35%;
+    padding: 2%;
+}
+
+.hero-img {
+    height: 60%;
+}
+
+.hero-txt {
+    font-size: 32px;
 }
